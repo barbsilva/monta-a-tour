@@ -1,0 +1,42 @@
+/* Buttons
+   ========================================================================== */
+/**
+ * Add base styles in button.
+ */
+.button {
+  padding: 8px 20px;
+  border: none;
+  font-family: $lato;
+  font-size: $small;
+  text-transform: uppercase;
+}
+
+/**
+ * Add color scheme & states of buttons components.
+ */
+.button_primary {
+  background-color: $coral;
+  color: $white;
+
+  &:hover {
+    background-color: $dim-gray;
+  }
+
+  &:focus, :active {
+    border: 2px solid $isabelline;
+  }
+}
+
+.button_secondary {
+  background-color: $isabelline;
+  color: $jet;
+
+  &:hover {
+    background-color: $dim-gray;
+    color: $white;
+  }
+
+  &:focus, :active {
+    border: 2px solid $isabelline;
+  }
+}

@@ -1,0 +1,50 @@
+/* Footer
+   ========================================================================== */
+footer {
+  margin-top: 30px;
+  height: 100px;
+  padding: 50px;
+  background-color: $jet;
+  color: $white;
+}
+
+.footer__container {
+  float: left;
+  padding: 0 30px;
+  font-family: $lato;
+
+  small {
+    font-size: $x-small;
+    text-transform: uppercase;
+  }
+}
+
+.footer__logo {
+  padding-bottom: 15px;
+
+  img {
+    width: 300px;
+  }
+}
+
+.footer__contact-info {
+  p {
+    margin: 0px;
+    padding-bottom: 10px;
+    font-family: $lato;
+    font-style: normal;
+    color: $white;
+  }
+
+  a {
+    color: $coral;
+    &hover {
+      color:$nickel
+    }
+  }
+}
+
+.footer__text-emphasis{
+  padding-right: 3px;
+  font-weight: $bold;
+}

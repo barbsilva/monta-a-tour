@@ -1,0 +1,20 @@
+/* Navigation
+   ========================================================================== */
+.navbar__logo{
+  float: left;
+  img{
+    width: 90px;
+  }
+}
+
+
+.navbar__container {
+  float: left;
+  width: 900px;
+  text-align: right;
+
+  ul {
+    display: inline-block;
+    font-family: $lato;
+  }
+}

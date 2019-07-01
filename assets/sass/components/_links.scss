@@ -1,0 +1,11 @@
+.link_primary {
+  color: $jet;
+
+  &:hover {
+    color: $coral;
+  }
+
+  &:active {
+    color: $nickel;
+  }
+}
